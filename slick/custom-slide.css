@@ -1,0 +1,67 @@
+.container {
+  height: 100%;
+  width: 100%;
+}
+
+.graydient-background {
+    background-image: url(/slick/img/mtn-group.png);
+    background-size: cover;
+    display: block;
+}
+
+.slider {
+  width: 100%;
+  margin-top: 80px;
+  display: inline-block;
+}
+
+.verticalLine {
+    border-left: thick solid #fff;
+}
+
+.slick-slide {
+  background: #365c5b;
+  opacity: 0.9;
+  color: white;
+  padding: 40px 0;
+  font-size: 30px;
+  font-family: "Arial", "Helvetica";
+  text-align: center;
+  height: 50%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+
+.slick-dots {
+  bottom: -50px;
+}
+
+.slick-dots li {
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    padding: 0;
+    cursor: pointer;
+    color: #000;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border: 1px solid #000000; 
+    box-shadow: 0 0 0 0.1px #000;
+    -webkit-box-shadow: 0 0 0 0.2px #000;
+}
+
+/* arrow styling */
+.slick-prev {
+    left: 5%;
+    z-index: 2;
+}
+
+.slick-next {
+    right: 5%;
+}

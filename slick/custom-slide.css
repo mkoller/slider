@@ -7,11 +7,12 @@
     background-image: url(/slick/img/mtn-group.png);
     background-size: cover;
     display: block;
+    height: 80%;
 }
 
 .slider {
   width: 100%;
-  margin-top: 80px;
+  margin-top: 300px;
   display: inline-block;
 }
 
@@ -24,6 +25,7 @@ h1 {
   display: block;
   height: 200px;
   float: right;
+  margin-top: -150px;
 }
 
 .slick-slide {
@@ -34,7 +36,7 @@ h1 {
   font-size: 30px;
   font-family: "Arial", "Helvetica";
   text-align: center;
-  height: 50%;
+  height: 30%;
 }
 
 .slick-prev:before,
